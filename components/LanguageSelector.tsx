@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useRouter, usePathname } from '@/navigation';
 import { useLocale } from 'next-intl';
 import { locales, localeNames, rtlLocales } from '@/lib/i18n-config';
+type Locale = typeof locales[number];
 
 const localeFlags: Record<string, string> = {
   es: '🇪🇸',

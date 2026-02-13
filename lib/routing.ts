@@ -1,7 +1,10 @@
+// CORREGIR:
 import { defineRouting } from 'next-intl/routing';
+import { locales } from '@/lib/i18n-config';
+type Locale = typeof locales[number];
 
 export const routing = defineRouting({
-  locales: ['es', 'en', 'fr', 'de', 'it', 'pt', 'nl', 'sv', 'zh', 'ja', 'ar', 'ru', 'ko'],
+  locales: locales,
   defaultLocale: 'en',
   localePrefix: 'as-needed'
 });

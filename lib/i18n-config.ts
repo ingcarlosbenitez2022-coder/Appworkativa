@@ -1,3 +1,4 @@
+// lib/i18n-config.ts
 export const rtlLocales = ['ar'];
 
 export const locales = ['es', 'en', 'fr', 'de', 'it', 'pt', 'nl', 'sv', 'zh', 'ja', 'ar', 'ru', 'ko'];
@@ -17,3 +18,6 @@ export const localeNames = {
   ru: 'Русский',
   ko: '한국어'
 };
+
+// 🟢 AGREGAR ESTA LÍNEA - Define el tipo Locale
+export type Locale = typeof locales[number];

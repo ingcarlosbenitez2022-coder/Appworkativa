@@ -19,5 +19,5 @@ export const localeNames = {
   ko: '한국어'
 };
 
-// 🟢 AGREGAR ESTA LÍNEA - Define el tipo Locale
+// 🟢 EXPORTAR EL TIPO LOCALE
 export type Locale = typeof locales[number];

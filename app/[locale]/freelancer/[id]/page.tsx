@@ -1,7 +1,8 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { mockFreelancers } from '@/lib/mock-data';
-import type { Locale } from '@/lib/i18n-config';
+import { locales } from '@/lib/i18n-config';
+type Locale = typeof locales[number];
 
 export default async function FreelancerPage({
   params,

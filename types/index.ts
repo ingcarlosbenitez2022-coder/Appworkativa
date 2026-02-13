@@ -1,3 +1,4 @@
+// types/index.ts
 export interface Gig {
   id: string;
   title: string;
@@ -6,6 +7,7 @@ export interface Gig {
   author: string;
   rating: number;
   category: string;
+  images?: string[];
 }
 
 export interface Freelancer {
@@ -16,8 +18,6 @@ export interface Freelancer {
   rating: number;
   completedJobs: number;
   category: string;
-  avatar?: string;
-  reviews?: number;
   skills?: string[];
-  portfolio?: { title: string; image?: string }[];
+  avatar?: string;
 }

@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Uppdrag",
+    "freelancers": "Frilansare",
+    "categories": "Kategorier",
+    "register": "Registrera",
+    "login": "Logga in"
+  },
+  "hero": {
+    "title": "Det digitala talang-ekosystemet",
+    "subtitle": "Anslut, lär och väx med Workativa",
+    "cta": "Publicera projekt",
+    "search": {
+      "placeholder": "Vilken tjänst behöver du?",
+      "button": "Sök"
+    }
+  },
+  "categories": {
+    "title": "Utforska tjänster efter kategori",
+    "subtitle": "Hitta den ideala talangen för varje projekttyp",
+    "webDev": { "name": "Webbutveckling", "desc": "Moderna & skalbara webbplatser" },
+    "uiUx": { "name": "UI/UX-design", "desc": "Attraktiva gränssnitt" },
+    "marketing": { "name": "Digital Marknadsföring", "desc": "Väx ditt varumärke" },
+    "ecommerce": { "name": "E-handel", "desc": "Onlinebutiker" },
+    "mobile": { "name": "Mobilappar", "desc": "iOS & Android" },
+    "support": { "name": "Teknisk Support", "desc": "Snabba lösningar" },
+    "tech": {
+      "title": "Utveckling & Teknologi",
+      "ai": "AI & Automation",
+      "backend": "Backend & API:er",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Kreativitet",
+      "branding": "Branding & Logotyper",
+      "graphic": "Grafisk Design"
+    },
+    "marketing": {
+      "title": "Marknadsföring & Tillväxt",
+      "email": "E-postmarknadsföring",
+      "social": "Sociala Medier",
+      "analytics": "Analys"
+    },
+    "content": {
+      "title": "Multimediainnehåll",
+      "video": "Videoredigering",
+      "photo": "Fotografi",
+      "audio": "Ljud & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-handel & Support"
+    }
+  },
+  "ready": {
+    "title": "Redo att lansera ditt projekt idag?",
+    "subtitle": "Publicera ditt projekt och få förslag från verifierade frilansare inom några minuter."
+  },
+  "features": {
+    "noCost": "Inga förskottskostnader",
+    "verified": "Verifierade frilansare",
+    "quality": "Kvalitetssäkrat",
+    "secure": "Säker betalning"
+  },
+  "howItWorks": {
+    "title": "Hur det fungerar",
+    "subtitle": "Börja på några minuter",
+    "step1": { "title": "Skapa din profil", "desc": "Registrera dig och visa din talang" },
+    "step2": { "title": "Utforska uppdrag", "desc": "Hitta projekt" },
+    "step3": { "title": "Tjäna pengar", "desc": "Arbeta och få betalt säkert" }
+  },
+  "gigs": {
+    "title": "Tillgängliga frilanstjänster",
+    "from": "från",
+    "contact": "Kontakta"
+  },
+  "freelancer": {
+    "rating": "betyg",
+    "jobs": "slutförda uppdrag",
+    "contact": "Kontakta"
+  },
+  "footer": {
+    "about": "Om oss",
+    "terms": "Villkor",
+    "privacy": "Integritet",
+    "copyright": "© {year} Workativa. Alla rättigheter förbehållna."
+  }
+}

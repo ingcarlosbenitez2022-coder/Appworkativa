@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "服务",
+    "freelancers": "自由职业者",
+    "categories": "分类",
+    "register": "注册",
+    "login": "登录"
+  },
+  "hero": {
+    "title": "数字人才生态系统",
+    "subtitle": "连接、学习、与 Workativa 共同成长",
+    "cta": "发布项目",
+    "search": {
+      "placeholder": "您需要什么服务？",
+      "button": "搜索"
+    }
+  },
+  "categories": {
+    "title": "按类别探索服务",
+    "subtitle": "为每种项目类型找到理想人才",
+    "webDev": { "name": "网站开发", "desc": "现代化可扩展网站" },
+    "uiUx": { "name": "UI/UX 设计", "desc": "吸引人的界面" },
+    "marketing": { "name": "数字营销", "desc": "提升品牌影响力" },
+    "ecommerce": { "name": "电子商务", "desc": "在线商店" },
+    "mobile": { "name": "移动应用", "desc": "iOS 与 Android" },
+    "support": { "name": "技术支持", "desc": "快速解决方案" }
+  },
+  "ready": {
+    "title": "今天准备好启动你的项目了吗？",
+    "subtitle": "发布你的项目，几分钟内即可收到经过验证的自由职业者的提案。"
+  },
+  "features": {
+    "noCost": "无需初始费用",
+    "verified": "经过验证的自由职业者",
+    "quality": "质量保证",
+    "secure": "安全支付"
+  },
+  "howItWorks": {
+    "title": "运作方式",
+    "subtitle": "几分钟内即可开始",
+    "step1": { "title": "创建个人资料", "desc": "注册并展示你的才能" },
+    "step2": { "title": "探索服务", "desc": "寻找项目" },
+    "step3": { "title": "赚钱", "desc": "安全地工作并收款" }
+  },
+  "gigs": {
+    "title": "可用自由职业服务",
+    "from": "起价",
+    "contact": "联系"
+  },
+  "freelancer": {
+    "rating": "评分",
+    "jobs": "已完成项目",
+    "contact": "联系"
+  },
+  "footer": {
+    "about": "关于",
+    "terms": "条款",
+    "privacy": "隐私",
+    "copyright": "© {year} Workativa。保留所有权利。"
+  }
+}

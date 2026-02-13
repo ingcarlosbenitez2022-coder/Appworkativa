@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Aufträge",
+    "freelancers": "Freelancer",
+    "categories": "Kategorien",
+    "register": "Registrieren",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "title": "Das Ökosystem für digitale Talente",
+    "subtitle": "Verbinden, lernen und wachsen mit Workativa",
+    "cta": "Projekt veröffentlichen",
+    "search": {
+      "placeholder": "Welchen Service benötigen Sie?",
+      "button": "Suchen"
+    }
+  },
+  "categories": {
+    "title": "Dienste nach Kategorie durchsuchen",
+    "subtitle": "Finden Sie das ideale Talent für jedes Projekt",
+    "webDev": { "name": "Webentwicklung", "desc": "Moderne & skalierbare Websites" },
+    "uiUx": { "name": "UI/UX Design", "desc": "Attraktive Oberflächen" },
+    "marketing": { "name": "Digitales Marketing", "desc": "Wachsen Sie Ihre Marke" },
+    "ecommerce": { "name": "E-Commerce", "desc": "Online-Shops" },
+    "mobile": { "name": "Mobile Apps", "desc": "iOS & Android" },
+    "support": { "name": "Technischer Support", "desc": "Schnelle Lösungen" },
+    "tech": {
+      "title": "Entwicklung & Technologie",
+      "ai": "KI & Automatisierung",
+      "backend": "Backend & APIs",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Kreativität",
+      "branding": "Branding & Logos",
+      "graphic": "Grafikdesign"
+    },
+    "marketing": {
+      "title": "Marketing & Wachstum",
+      "email": "E-Mail-Marketing",
+      "social": "Social Media Marketing",
+      "analytics": "Analytik"
+    },
+    "content": {
+      "title": "Multimedia-Inhalte",
+      "video": "Videobearbeitung",
+      "photo": "Fotografie",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-Commerce & Support"
+    }
+  },
+  "ready": {
+    "title": "Bereit, Ihr Projekt heute zu starten?",
+    "subtitle": "Veröffentlichen Sie Ihr Projekt und erhalten Sie in Minuten Angebote von geprüften Freelancern."
+  },
+  "features": {
+    "noCost": "Keine Vorabkosten",
+    "verified": "Geprüfte Freelancer",
+    "quality": "Gesicherte Qualität",
+    "secure": "Sichere Zahlung"
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "Starten Sie in Minuten",
+    "step1": { "title": "Profil erstellen", "desc": "Registrieren und Talent zeigen" },
+    "step2": { "title": "Aufträge entdecken", "desc": "Projekte finden" },
+    "step3": { "title": "Geld verdienen", "desc": "Arbeiten und sicher bezahlt werden" }
+  },
+  "gigs": {
+    "title": "Verfügbare Freelancer-Dienste",
+    "from": "ab",
+    "contact": "Kontaktieren"
+  },
+  "freelancer": {
+    "rating": "Bewertung",
+    "jobs": "abgeschlossene Aufträge",
+    "contact": "Kontaktieren"
+  },
+  "footer": {
+    "about": "Über uns",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "copyright": "© {year} Workativa. Alle Rechte vorbehalten."
+  }
+}

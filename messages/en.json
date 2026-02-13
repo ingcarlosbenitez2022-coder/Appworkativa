@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Gigs",
+    "freelancers": "Freelancers",
+    "categories": "Categories",
+    "register": "Sign Up",
+    "login": "Log In"
+  },
+  "hero": {
+    "title": "The digital talent ecosystem",
+    "subtitle": "Connect, learn and grow with Workativa",
+    "cta": "Post a project",
+    "search": {
+      "placeholder": "What service do you need?",
+      "button": "Search"
+    }
+  },
+  "categories": {
+    "title": "Explore services by category",
+    "subtitle": "Find the ideal talent for each project type",
+    "webDev": { "name": "Web Development", "desc": "Modern & scalable sites" },
+    "uiUx": { "name": "UI/UX Design", "desc": "Attractive interfaces" },
+    "marketing": { "name": "Digital Marketing", "desc": "Grow your brand" },
+    "ecommerce": { "name": "E-commerce", "desc": "Online stores" },
+    "mobile": { "name": "Mobile Apps", "desc": "iOS & Android" },
+    "support": { "name": "Technical Support", "desc": "Quick solutions" },
+    "tech": {
+      "title": "Development & Technology",
+      "web": "Web Development",
+      "mobile": "Mobile Apps",
+      "ai": "AI & Automation",
+      "backend": "Backend & APIs",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Creativity",
+      "uiux": "UI/UX Design",
+      "branding": "Branding & Logos",
+      "graphic": "Graphic Design"
+    },
+    "marketing": {
+      "title": "Marketing & Growth",
+      "digital": "Digital Marketing",
+      "email": "Email Marketing",
+      "social": "Social Media Marketing",
+      "analytics": "Analytics"
+    },
+    "content": {
+      "title": "Multimedia Content",
+      "video": "Video Editing",
+      "photo": "Photography",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Support",
+      "ecommerce": "E-commerce",
+      "support": "Technical Support"
+    }
+  },
+  "ready": {
+    "title": "Ready to launch your project today?",
+    "subtitle": "Post your project and receive proposals from verified freelancers in minutes."
+  },
+  "features": {
+    "noCost": "No upfront costs",
+    "verified": "Verified freelancers",
+    "quality": "Assured quality",
+    "secure": "Secure payment"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Start in minutes",
+    "step1": { "title": "Create your profile", "desc": "Sign up and showcase your talent" },
+    "step2": { "title": "Explore gigs", "desc": "Find projects" },
+    "step3": { "title": "Earn money", "desc": "Work and get paid securely" }
+  },
+  "gigs": {
+    "title": "Available freelance services",
+    "from": "from",
+    "contact": "Contact"
+  },
+  "freelancer": {
+    "rating": "rating",
+    "jobs": "jobs completed",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": "About",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "copyright": "© {year} Workativa. All rights reserved."
+  }
+}

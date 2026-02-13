@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Prestations",
+    "freelancers": "Freelances",
+    "categories": "Catégories",
+    "register": "S'inscrire",
+    "login": "Se connecter"
+  },
+  "hero": {
+    "title": "L'écosystème du talent numérique",
+    "subtitle": "Connectez, apprenez et grandissez avec Workativa",
+    "cta": "Publier un projet",
+    "search": {
+      "placeholder": "De quel service avez-vous besoin?",
+      "button": "Rechercher"
+    }
+  },
+  "categories": {
+    "title": "Explorez les services par catégorie",
+    "subtitle": "Trouvez le talent idéal pour chaque type de projet",
+    "webDev": { "name": "Développement Web", "desc": "Sites modernes et évolutifs" },
+    "uiUx": { "name": "Design UI/UX", "desc": "Interfaces attrayantes" },
+    "marketing": { "name": "Marketing Digital", "desc": "Développez votre marque" },
+    "ecommerce": { "name": "E-commerce", "desc": "Boutiques en ligne" },
+    "mobile": { "name": "Applications Mobiles", "desc": "iOS & Android" },
+    "support": { "name": "Support Technique", "desc": "Solutions rapides" },
+    "tech": {
+      "title": "Développement & Technologie",
+      "ai": "IA & Automatisation",
+      "backend": "Backend & API",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Créativité",
+      "branding": "Branding & Logos",
+      "graphic": "Design Graphique"
+    },
+    "marketing": {
+      "title": "Marketing & Croissance",
+      "email": "Email Marketing",
+      "social": "Marketing Réseaux Sociaux",
+      "analytics": "Analytique"
+    },
+    "content": {
+      "title": "Contenu Multimédia",
+      "video": "Montage Vidéo",
+      "photo": "Photographie",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Support"
+    }
+  },
+  "ready": {
+    "title": "Prêt à lancer votre projet aujourd'hui?",
+    "subtitle": "Publiez votre projet et recevez des propositions de freelances vérifiés en quelques minutes."
+  },
+  "features": {
+    "noCost": "Sans frais initiaux",
+    "verified": "Freelances vérifiés",
+    "quality": "Qualité garantie",
+    "secure": "Paiement sécurisé"
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Commencez en quelques minutes",
+    "step1": { "title": "Créez votre profil", "desc": "Inscrivez-vous et montrez votre talent" },
+    "step2": { "title": "Explorez les prestations", "desc": "Trouvez des projets" },
+    "step3": { "title": "Gagnez de l'argent", "desc": "Travaillez et soyez payé en toute sécurité" }
+  },
+  "gigs": {
+    "title": "Services freelance disponibles",
+    "from": "à partir de",
+    "contact": "Contacter"
+  },
+  "freelancer": {
+    "rating": "évaluation",
+    "jobs": "missions complétées",
+    "contact": "Contacter"
+  },
+  "footer": {
+    "about": "À propos",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "copyright": "© {year} Workativa. Tous droits réservés."
+  }
+}

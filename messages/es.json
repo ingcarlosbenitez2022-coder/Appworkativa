@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Gigs",
+    "freelancers": "Freelancers",
+    "categories": "Categorías",
+    "register": "Registrarse",
+    "login": "Iniciar sesión"
+  },
+  "hero": {
+    "title": "El ecosistema del talento digital",
+    "subtitle": "Conecta, aprende y crece con Workativa",
+    "cta": "Publicar proyecto",
+    "search": {
+      "placeholder": "¿Qué servicio necesitas?",
+      "button": "Buscar"
+    }
+  },
+  "categories": {
+    "title": "Explora servicios por categoría",
+    "subtitle": "Encuentra el talento ideal para cada tipo de proyecto",
+    "webDev": { "name": "Desarrollo Web", "desc": "Sitios modernos y escalables" },
+    "uiUx": { "name": "Diseño UI/UX", "desc": "Interfaces atractivas" },
+    "marketing": { "name": "Marketing Digital", "desc": "Crece tu marca" },
+    "ecommerce": { "name": "E-commerce", "desc": "Tiendas online" },
+    "mobile": { "name": "Apps Móviles", "desc": "iOS & Android" },
+    "support": { "name": "Soporte Técnico", "desc": "Soluciones rápidas" },
+    
+    "tech": {
+      "title": "Desarrollo & Tecnología",
+      "ai": "IA & Automatización",
+      "backend": "Backend & APIs",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Diseño & Creatividad",
+      "branding": "Branding & Logos",
+      "graphic": "Diseño Gráfico"
+    },
+    "marketing": {
+      "title": "Marketing & Crecimiento",
+      "email": "Email Marketing",
+      "social": "Marketing Redes",
+      "analytics": "Analítica"
+    },
+    "content": {
+      "title": "Contenido Multimedia",
+      "video": "Edición de Video",
+      "photo": "Fotografía",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Soporte"
+    }
+  },
+  "ready": {
+    "title": "¿Listo para lanzar tu proyecto hoy?",
+    "subtitle": "Publica tu proyecto y recibe propuestas de freelancers verificados en minutos."
+  },
+  "features": {
+    "noCost": "Sin costos iniciales",
+    "verified": "Freelancers verificados",
+    "quality": "Calidad asegurada",
+    "secure": "Pago seguro"
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "Empieza en minutos",
+    "step1": { "title": "Crea tu perfil", "desc": "Regístrate y muestra tu talento" },
+    "step2": { "title": "Explora gigs", "desc": "Encuentra proyectos" },
+    "step3": { "title": "Gana dinero", "desc": "Trabaja y cobra seguro" }
+  },
+  "gigs": {
+    "title": "Servicios freelance disponibles",
+    "from": "desde",
+    "contact": "Contactar"
+  },
+  "freelancer": {
+    "rating": "valoración",
+    "jobs": "trabajos completados",
+    "contact": "Contactar"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "copyright": "© {year} Workativa. Todos los derechos reservados."
+  }
+}

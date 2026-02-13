@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Serviços",
+    "freelancers": "Freelancers",
+    "categories": "Categorias",
+    "register": "Registar",
+    "login": "Entrar"
+  },
+  "hero": {
+    "title": "O ecossistema do talento digital",
+    "subtitle": "Conecte, aprenda e cresça com a Workativa",
+    "cta": "Publicar projeto",
+    "search": {
+      "placeholder": "Que serviço precisa?",
+      "button": "Pesquisar"
+    }
+  },
+  "categories": {
+    "title": "Explore serviços por categoria",
+    "subtitle": "Encontre o talento ideal para cada tipo de projeto",
+    "webDev": { "name": "Desenvolvimento Web", "desc": "Sites modernos e escaláveis" },
+    "uiUx": { "name": "Design UI/UX", "desc": "Interfaces atrativas" },
+    "marketing": { "name": "Marketing Digital", "desc": "Cresça sua marca" },
+    "ecommerce": { "name": "E-commerce", "desc": "Lojas online" },
+    "mobile": { "name": "Apps Móveis", "desc": "iOS & Android" },
+    "support": { "name": "Suporte Técnico", "desc": "Soluções rápidas" },
+    "tech": {
+      "title": "Desenvolvimento & Tecnologia",
+      "ai": "IA & Automação",
+      "backend": "Backend & APIs",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Criatividade",
+      "branding": "Branding & Logos",
+      "graphic": "Design Gráfico"
+    },
+    "marketing": {
+      "title": "Marketing & Crescimento",
+      "email": "Email Marketing",
+      "social": "Marketing Redes Sociais",
+      "analytics": "Análise"
+    },
+    "content": {
+      "title": "Conteúdo Multimédia",
+      "video": "Edição de Vídeo",
+      "photo": "Fotografia",
+      "audio": "Áudio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Suporte"
+    }
+  },
+  "ready": {
+    "title": "Pronto para lançar seu projeto hoje?",
+    "subtitle": "Publique seu projeto e receba propostas de freelancers verificados em minutos."
+  },
+  "features": {
+    "noCost": "Sem custos iniciais",
+    "verified": "Freelancers verificados",
+    "quality": "Qualidade garantida",
+    "secure": "Pagamento seguro"
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "subtitle": "Comece em minutos",
+    "step1": { "title": "Crie seu perfil", "desc": "Registe-se e mostre seu talento" },
+    "step2": { "title": "Explore serviços", "desc": "Encontre projetos" },
+    "step3": { "title": "Ganhe dinheiro", "desc": "Trabalhe e receba com segurança" }
+  },
+  "gigs": {
+    "title": "Serviços freelance disponíveis",
+    "from": "a partir de",
+    "contact": "Contatar"
+  },
+  "freelancer": {
+    "rating": "avaliação",
+    "jobs": "trabalhos concluídos",
+    "contact": "Contatar"
+  },
+  "footer": {
+    "about": "Sobre",
+    "terms": "Termos",
+    "privacy": "Privacidade",
+    "copyright": "© {year} Workativa. Todos os direitos reservados."
+  }
+}

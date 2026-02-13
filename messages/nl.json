@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Klussen",
+    "freelancers": "Freelancers",
+    "categories": "Categorieën",
+    "register": "Registreren",
+    "login": "Inloggen"
+  },
+  "hero": {
+    "title": "Het ecosysteem voor digitaal talent",
+    "subtitle": "Verbind, leer en groei met Workativa",
+    "cta": "Project plaatsen",
+    "search": {
+      "placeholder": "Welke dienst heb je nodig?",
+      "button": "Zoeken"
+    }
+  },
+  "categories": {
+    "title": "Verken diensten per categorie",
+    "subtitle": "Vind het ideale talent voor elk project",
+    "webDev": { "name": "Webontwikkeling", "desc": "Moderne & schaalbare sites" },
+    "uiUx": { "name": "UI/UX Design", "desc": "Aantrekkelijke interfaces" },
+    "marketing": { "name": "Digitale Marketing", "desc": "Laat je merk groeien" },
+    "ecommerce": { "name": "E-commerce", "desc": "Online winkels" },
+    "mobile": { "name": "Mobiele Apps", "desc": "iOS & Android" },
+    "support": { "name": "Technische Ondersteuning", "desc": "Snelle oplossingen" },
+    "tech": {
+      "title": "Ontwikkeling & Technologie",
+      "ai": "AI & Automatisering",
+      "backend": "Backend & APIs",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Ontwerp & Creativiteit",
+      "branding": "Branding & Logo's",
+      "graphic": "Grafisch Ontwerp"
+    },
+    "marketing": {
+      "title": "Marketing & Groei",
+      "email": "E-mailmarketing",
+      "social": "Social Media Marketing",
+      "analytics": "Analyse"
+    },
+    "content": {
+      "title": "Multimediale Inhoud",
+      "video": "Videobewerking",
+      "photo": "Fotografie",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Ondersteuning"
+    }
+  },
+  "ready": {
+    "title": "Klaar om vandaag je project te lanceren?",
+    "subtitle": "Plaats je project en ontvang binnen enkele minuten voorstellen van geverifieerde freelancers."
+  },
+  "features": {
+    "noCost": "Geen voorafgaande kosten",
+    "verified": "Geverifieerde freelancers",
+    "quality": "Gegarandeerde kwaliteit",
+    "secure": "Veilige betaling"
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "subtitle": "Begin binnen enkele minuten",
+    "step1": { "title": "Maak je profiel", "desc": "Registreer en toon je talent" },
+    "step2": { "title": "Verken klussen", "desc": "Vind projecten" },
+    "step3": { "title": "Verdien geld", "desc": "Werk en ontvang veilig betaling" }
+  },
+  "gigs": {
+    "title": "Beschikbare freelance diensten",
+    "from": "vanaf",
+    "contact": "Contact"
+  },
+  "freelancer": {
+    "rating": "beoordeling",
+    "jobs": "voltooide opdrachten",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": "Over ons",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "copyright": "© {year} Workativa. Alle rechten voorbehouden."
+  }
+}

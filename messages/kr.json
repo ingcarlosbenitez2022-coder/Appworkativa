@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "서비스",
+    "freelancers": "프리랜서",
+    "categories": "카테고리",
+    "explore": "탐색",
+    "startSelling": "판매 시작하기",
+    "register": "회원가입",
+    "login": "로그인",
+    "searchPlaceholder": "서비스 검색..."
+  },
+  "hero": {
+    "title": "디지털 인재 생태계",
+    "subtitle": "Workativa와 함께 연결하고, 배우고, 성장하세요",
+    "cta": "프로젝트 등록",
+    "search": {
+      "placeholder": "어떤 서비스가 필요하신가요?",
+      "button": "검색"
+    }
+  },
+  "categories": {
+    "title": "카테고리별 서비스 탐색",
+    "subtitle": "모든 프로젝트에 이상적인 인재를 찾으세요",
+    "webDev": { "name": "웹 개발", "desc": "현대적이고 확장 가능한 사이트" },
+    "uiUx": { "name": "UI/UX 디자인", "desc": "매력적인 인터페이스" },
+    "marketing": { "name": "디지털 마케팅", "desc": "브랜드 성장" },
+    "ecommerce": { "name": "이커머스", "desc": "온라인 스토어" },
+    "mobile": { "name": "모바일 앱", "desc": "iOS & Android" },
+    "support": { "name": "기술 지원", "desc": "빠른 해결" },
+    "tech": {
+      "title": "개발 및 기술",
+      "web": "웹 개발",
+      "mobile": "모바일 앱",
+      "ai": "AI 및 자동화",
+      "backend": "백엔드 및 API",
+      "wordpress": "워드프레스"
+    },
+    "design": {
+      "title": "디자인 및 창의성",
+      "uiux": "UI/UX 디자인",
+      "branding": "브랜딩 및 로고",
+      "graphic": "그래픽 디자인"
+    },
+    "marketing": {
+      "title": "마케팅 및 성장",
+      "digital": "디지털 마케팅",
+      "email": "이메일 마케팅",
+      "social": "소셜 미디어 마케팅",
+      "analytics": "분석"
+    },
+    "content": {
+      "title": "멀티미디어 콘텐츠",
+      "video": "비디오 편집",
+      "photo": "사진",
+      "audio": "오디오 및 팟캐스트"
+    },
+    "ecommerce": {
+      "title": "이커머스 및 지원",
+      "ecommerce": "이커머스",
+      "support": "기술 지원"
+    }
+  },
+  "ready": {
+    "title": "오늘 프로젝트를 시작할 준비가 되셨나요?",
+    "subtitle": "프로젝트를 등록하고 몇 분 안에 검증된 프리랜서로부터 제안을 받으세요."
+  },
+  "features": {
+    "noCost": "선불 비용 없음",
+    "verified": "검증된 프리랜서",
+    "quality": "품질 보장",
+    "secure": "안전한 결제"
+  },
+  "howItWorks": {
+    "title": "이용 방법",
+    "subtitle": "몇 분 안에 시작",
+    "step1": { "title": "프로필 생성", "desc": "회원가입하고 재능을 보여주세요" },
+    "step2": { "title": "서비스 탐색", "desc": "프로젝트 찾기" },
+    "step3": { "title": "수익 창출", "desc": "안전하게 작업하고 보수 받기" }
+  },
+  "gigs": {
+    "title": "이용 가능한 프리랜서 서비스",
+    "from": "부터",
+    "contact": "문의"
+  },
+  "freelancer": {
+    "rating": "평점",
+    "jobs": "완료된 작업",
+    "contact": "문의"
+  },
+  "footer": {
+    "about": "회사 소개",
+    "terms": "이용약관",
+    "privacy": "개인정보처리방침",
+    "copyright": "© {year} Workativa. 모든 권리 보유."
+  }
+}

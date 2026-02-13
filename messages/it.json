@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Servizi",
+    "freelancers": "Freelancer",
+    "categories": "Categorie",
+    "register": "Registrati",
+    "login": "Accedi"
+  },
+  "hero": {
+    "title": "L'ecosistema del talento digitale",
+    "subtitle": "Connettiti, impara e cresci con Workativa",
+    "cta": "Pubblica un progetto",
+    "search": {
+      "placeholder": "Di quale servizio hai bisogno?",
+      "button": "Cerca"
+    }
+  },
+  "categories": {
+    "title": "Esplora i servizi per categoria",
+    "subtitle": "Trova il talento ideale per ogni tipo di progetto",
+    "webDev": { "name": "Sviluppo Web", "desc": "Siti moderni e scalabili" },
+    "uiUx": { "name": "Design UI/UX", "desc": "Interfacce accattivanti" },
+    "marketing": { "name": "Marketing Digitale", "desc": "Fai crescere il tuo marchio" },
+    "ecommerce": { "name": "E-commerce", "desc": "Negozi online" },
+    "mobile": { "name": "App Mobili", "desc": "iOS & Android" },
+    "support": { "name": "Supporto Tecnico", "desc": "Soluzioni rapide" },
+    "tech": {
+      "title": "Sviluppo & Tecnologia",
+      "web": "Sviluppo Web",
+      "mobile": "App Mobili",
+      "ai": "IA & Automazione",
+      "backend": "Backend & API",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Design & Creatività",
+      "uiux": "Design UI/UX",
+      "branding": "Branding & Loghi",
+      "graphic": "Design Grafico"
+    },
+    "marketing": {
+      "title": "Marketing & Crescita",
+      "digital": "Marketing Digitale",
+      "email": "Email Marketing",
+      "social": "Marketing Social",
+      "analytics": "Analisi"
+    },
+    "content": {
+      "title": "Contenuti Multimediali",
+      "video": "Montaggio Video",
+      "photo": "Fotografia",
+      "audio": "Audio & Podcast"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Supporto",
+      "ecommerce": "E-commerce",
+      "support": "Supporto Tecnico"
+    }
+  },
+  "ready": {
+    "title": "Pronto a lanciare il tuo progetto oggi?",
+    "subtitle": "Pubblica il tuo progetto e ricevi proposte da freelancer verificati in pochi minuti."
+  },
+  "features": {
+    "noCost": "Nessun costo iniziale",
+    "verified": "Freelancer verificati",
+    "quality": "Qualità garantita",
+    "secure": "Pagamento sicuro"
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "subtitle": "Inizia in pochi minuti",
+    "step1": { "title": "Crea il tuo profilo", "desc": "Registrati e mostra il tuo talento" },
+    "step2": { "title": "Esplora i servizi", "desc": "Trova progetti" },
+    "step3": { "title": "Guadagna", "desc": "Lavora e ricevi pagamenti sicuri" }
+  },
+  "gigs": {
+    "title": "Servizi freelance disponibili",
+    "from": "da",
+    "contact": "Contatta"
+  },
+  "freelancer": {
+    "rating": "valutazione",
+    "jobs": "lavori completati",
+    "contact": "Contatta"
+  },
+  "footer": {
+    "about": "Chi siamo",
+    "terms": "Termini",
+    "privacy": "Privacy",
+    "copyright": "© {year} Workativa. Tutti i diritti riservati."
+  }
+}

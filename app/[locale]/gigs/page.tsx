@@ -1,7 +1,8 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import GigCard from '@/components/GigCard';
 import { mockGigs } from '@/lib/mock-data';
-import type { Locale } from '@/lib/i18n-config';
+import { locales } from '@/lib/i18n-config';
+type Locale = typeof locales[number];
 
 export default async function GigsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

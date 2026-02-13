@@ -1,12 +1,10 @@
-// app/[locale]/freelancer/[id]/page.tsx
-
 import { getTranslations } from 'next-intl/server';
 import { mockFreelancers } from '@/lib/mock-data';
-import { locales } from '@/lib/i18n-config';  // ← CAMBIADO: importar locales
+import { locales } from '@/lib/i18n-config';  // ← IMPORTAR locales (NO Locale)
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-// 🟢 DEFINIR EL TIPO LOCALE AQUÍ MISMO
+// 🟢 DEFINIR EL TIPO LOCALE AQUÍ (NO importarlo)
 type Locale = typeof locales[number];
 
 interface PageProps {
@@ -32,13 +30,15 @@ export default async function FreelancerPage({ params }: PageProps) {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="p-8">
-          <div className="flex items-start gap-8">
+          <div className="flex flex-col md:flex-row gap-8">
             {/* Avatar */}
-            <div className="w-32 h-32 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 text-4xl font-bold">
-              {freelancer.name?.charAt(0) || 'U'}
+            <div className="flex-shrink-0">
+              <div className="w-32 h-32 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 text-4xl font-bold">
+                {freelancer.name?.charAt(0) || 'U'}
+              </div>
             </div>
             
-            {/* Info */}
+            {/* Información */}
             <div className="flex-1">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 {freelancer.name}
@@ -81,7 +81,7 @@ export default async function FreelancerPage({ params }: PageProps) {
                 </div>
               )}
               
-              {/* Contact Button */}
+              {/* Botón de contacto */}
               <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
                 {t('contact')}
               </button>

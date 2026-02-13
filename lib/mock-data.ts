@@ -1,5 +1,9 @@
-import type { Locale } from './i18n-config';
+// lib/mock-data.ts
+import { locales } from './i18n-config';  // ← CAMBIADO: importar locales
 import type { Gig, Freelancer } from '@/types';
+
+// 🟢 DEFINIR EL TIPO LOCALE AQUÍ MISMO
+type Locale = typeof locales[number];
 
 type GigData = Record<Locale, Gig[]>;
 type FreelancerData = Record<Locale, Freelancer[]>;
@@ -43,7 +47,7 @@ export const mockGigs: GigData = {
   sv: [
     { id: '1', title: 'Jag bygger din professionella webbplats', description: 'Modern webbplats med React/Next.js', price: 150, author: 'Carlos Dev', rating: 4.9, category: 'webDev' },
     { id: '2', title: 'UI/UX gränssnittsdesign', description: 'Tilltalande design för din app', price: 120, author: 'Ana Designer', rating: 5.0, category: 'uiUx' },
-    { id: '3', title: 'Digital marknadsföringsstrategi', description: 'SEO och sociala medieförbuden', price: 200, author: 'Marco Marketing', rating: 4.8, category: 'marketing' },
+    { id: '3', title: 'Digital marknadsföringsstrategi', description: 'SEO och sociala mediekampanjer', price: 200, author: 'Marco Marketing', rating: 4.8, category: 'marketing' },
   ],
   zh: [
     { id: '1', title: '我将为你打造专业网站', description: '使用 React/Next.js 的现代化网站', price: 150, author: 'Carlos Dev', rating: 4.9, category: 'webDev' },

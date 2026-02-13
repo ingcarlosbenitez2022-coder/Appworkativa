@@ -5,7 +5,10 @@
     "freelancers": "Freelancer",
     "categories": "Categorie",
     "register": "Registrati",
-    "login": "Accedi"
+    "login": "Accedi",
+    "searchPlaceholder": "Cerca servizi...",
+    "explore": "Esplora",
+    "startSelling": "Inizia a vendere"
   },
   "hero": {
     "title": "L'ecosistema del talento digitale",

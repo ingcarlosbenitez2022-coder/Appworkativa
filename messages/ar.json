@@ -5,7 +5,10 @@
     "freelancers": "المستقلون",
     "categories": "الفئات",
     "register": "التسجيل",
-    "login": "تسجيل الدخول"
+    "login": "تسجيل الدخول",
+    "searchPlaceholder": "البحث عن الخدمات...",
+    "explore": "استكشاف",
+    "startSelling": "ابدأ البيع"
   },
   "hero": {
     "title": "نظام المواهب الرقمية",

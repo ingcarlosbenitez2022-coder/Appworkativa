@@ -5,7 +5,10 @@
     "freelancers": "Freelances",
     "categories": "Catégories",
     "register": "S'inscrire",
-    "login": "Se connecter"
+    "login": "Se connecter",
+    "searchPlaceholder": "Rechercher des services...",
+    "explore": "Explorer",
+    "startSelling": "Commencer à vendre"
   },
   "hero": {
     "title": "L'écosystème du talent numérique",

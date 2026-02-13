@@ -11,5 +11,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     messages: (await import(`../messages/${locale}.json`)).default,
     timeZone: 'UTC',
     now: new Date(),
+    getMessageFallback({ namespace, key }) {
+      return key;
+    },
+    onError() {
+      // Suppress MISSING_MESSAGE during build
+    },
   };
 });

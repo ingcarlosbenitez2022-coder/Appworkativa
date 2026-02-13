@@ -16,4 +16,8 @@ export interface Freelancer {
   rating: number;
   completedJobs: number;
   category: string;
+  avatar?: string;
+  reviews?: number;
+  skills?: string[];
+  portfolio?: { title: string; image?: string }[];
 }

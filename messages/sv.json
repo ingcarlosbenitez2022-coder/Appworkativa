@@ -5,7 +5,10 @@
     "freelancers": "Frilansare",
     "categories": "Kategorier",
     "register": "Registrera",
-    "login": "Logga in"
+    "login": "Logga in",
+    "searchPlaceholder": "Sök tjänster...",
+    "explore": "Utforska",
+    "startSelling": "Börja sälja"
   },
   "hero": {
     "title": "Det digitala talang-ekosystemet",

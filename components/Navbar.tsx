@@ -27,7 +27,11 @@ import {
   WrenchIcon,
 } from '@heroicons/react/24/outline';
 
-export default function Navbar() {
+interface NavbarProps {
+  locale?: string;
+}
+
+export default function Navbar({ locale }: NavbarProps) {
   const t = useTranslations('nav');
   const [open, setOpen] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);

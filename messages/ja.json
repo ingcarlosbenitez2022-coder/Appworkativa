@@ -5,7 +5,10 @@
     "freelancers": "フリーランサー",
     "categories": "カテゴリー",
     "register": "登録",
-    "login": "ログイン"
+    "login": "ログイン",
+    "searchPlaceholder": "サービスを検索...",
+    "explore": "探す",
+    "startSelling": "販売を始める"
   },
   "hero": {
     "title": "デジタル人材エコシステム",

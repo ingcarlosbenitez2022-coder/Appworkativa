@@ -5,7 +5,10 @@
     "freelancers": "Freelancers",
     "categories": "Categorieën",
     "register": "Registreren",
-    "login": "Inloggen"
+    "login": "Inloggen",
+    "searchPlaceholder": "Zoek diensten...",
+    "explore": "Ontdekken",
+    "startSelling": "Begin met verkopen"
   },
   "hero": {
     "title": "Het ecosysteem voor digitaal talent",

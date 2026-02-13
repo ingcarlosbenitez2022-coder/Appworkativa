@@ -1,10 +1,10 @@
-import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/lib/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import LocaleHtmlAttributes from '@/components/LocaleHtmlAttributes';
+import IntlErrorHandlingProvider from '@/components/IntlErrorHandlingProvider';
 import { rtlLocales } from '@/lib/i18n-config';
 
 export function generateStaticParams() {
@@ -27,11 +27,11 @@ export default async function LocaleLayout({
   return (
     <div className={isRtl ? 'rtl' : 'ltr'} dir={isRtl ? 'rtl' : 'ltr'}>
       <LocaleHtmlAttributes locale={locale} />
-      <NextIntlClientProvider messages={messages} locale={locale}>
+      <IntlErrorHandlingProvider messages={messages} locale={locale}>
         <Navbar locale={locale} />
         <main className="flex-1">{children}</main>
         <Footer locale={locale} />
-      </NextIntlClientProvider>
+      </IntlErrorHandlingProvider>
     </div>
   );
 }

@@ -5,7 +5,10 @@
     "freelancers": "自由职业者",
     "categories": "分类",
     "register": "注册",
-    "login": "登录"
+    "login": "登录",
+    "searchPlaceholder": "搜索服务...",
+    "explore": "探索",
+    "startSelling": "开始销售"
   },
   "hero": {
     "title": "数字人才生态系统",

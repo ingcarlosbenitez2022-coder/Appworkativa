@@ -5,7 +5,10 @@
     "freelancers": "Freelancers",
     "categories": "Categories",
     "register": "Sign Up",
-    "login": "Log In"
+    "login": "Log In",
+    "searchPlaceholder": "Search services...",
+    "explore": "Explore",
+    "startSelling": "Start Selling"
   },
   "hero": {
     "title": "The digital talent ecosystem",

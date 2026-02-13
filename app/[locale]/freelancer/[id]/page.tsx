@@ -1,10 +1,9 @@
 import { getTranslations } from 'next-intl/server';
 import { mockFreelancers } from '@/lib/mock-data';
-import { locales } from '@/lib/i18n-config';  // ← IMPORTAR locales (NO Locale)
+import { locales } from '@/lib/i18n-config';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-// 🟢 DEFINIR EL TIPO LOCALE AQUÍ (NO importarlo)
 type Locale = typeof locales[number];
 
 interface PageProps {
@@ -18,8 +17,7 @@ export default async function FreelancerPage({ params }: PageProps) {
   const { locale, id } = await params;
   const t = await getTranslations({ locale, namespace: 'freelancer' });
   
-  // Buscar el freelancer en el mock data correspondiente al idioma
-  const freelancersData = mockFreelancers[locale as Locale] || mockFreelancers.es;
+  const freelancersData = mockFreelancers[locale] || mockFreelancers.es;
   const freelancer = freelancersData.find(f => f.id === id);
   
   if (!freelancer) {
@@ -31,14 +29,12 @@ export default async function FreelancerPage({ params }: PageProps) {
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="p-8">
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Avatar */}
             <div className="flex-shrink-0">
               <div className="w-32 h-32 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 text-4xl font-bold">
                 {freelancer.name?.charAt(0) || 'U'}
               </div>
             </div>
             
-            {/* Información */}
             <div className="flex-1">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 {freelancer.name}
@@ -62,7 +58,6 @@ export default async function FreelancerPage({ params }: PageProps) {
                 {freelancer.bio}
               </p>
               
-              {/* Skills */}
               {freelancer.skills && freelancer.skills.length > 0 && (
                 <div className="mb-6">
                   <h2 className="text-lg font-semibold text-gray-900 mb-3">
@@ -81,7 +76,6 @@ export default async function FreelancerPage({ params }: PageProps) {
                 </div>
               )}
               
-              {/* Botón de contacto */}
               <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
                 {t('contact')}
               </button>

@@ -73,8 +73,8 @@ export default function Navbar({ locale }: NavbarProps) {
           <Image
             src="/images/logo-workativa-azulw.png"
             alt="Workativa"
-            width={200}
-            height={70}
+            width={240}
+            height={84}
             priority
             className="object-contain"
           />

@@ -30,17 +30,21 @@
     "support": { "name": "Teknisk Support", "desc": "Snabba lösningar" },
     "tech": {
       "title": "Utveckling & Teknologi",
+      "web": "Webbutveckling",
+      "mobile": "Mobilappar",
       "ai": "AI & Automation",
       "backend": "Backend & API:er",
       "wordpress": "WordPress"
     },
     "design": {
       "title": "Design & Kreativitet",
+      "uiux": "UI/UX-design",
       "branding": "Branding & Logotyper",
       "graphic": "Grafisk Design"
     },
     "marketing": {
       "title": "Marknadsföring & Tillväxt",
+      "digital": "Digital Marknadsföring",
       "email": "E-postmarknadsföring",
       "social": "Sociala Medier",
       "analytics": "Analys"
@@ -52,7 +56,9 @@
       "audio": "Ljud & Podcast"
     },
     "ecommerce": {
-      "title": "E-handel & Support"
+      "title": "E-handel & Support",
+      "ecommerce": "E-handel",
+      "support": "Teknisk Support"
     }
   },
   "ready": {
@@ -80,7 +86,9 @@
   "freelancer": {
     "rating": "betyg",
     "jobs": "slutförda uppdrag",
-    "contact": "Kontakta"
+    "contact": "Kontakta",
+    "skills": "Färdigheter",
+    "reviews": "recensioner"
   },
   "footer": {
     "about": "Om oss",

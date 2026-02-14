@@ -6,9 +6,9 @@
     "categories": "Kategorien",
     "register": "Registrieren",
     "login": "Anmelden",
-    "searchPlaceholder": "Dienste suchen...",
+    "searchPlaceholder": "Services suchen...",
     "explore": "Entdecken",
-    "startSelling": "Verkaufen beginnen"
+    "startSelling": "Verkaufen starten"
   },
   "hero": {
     "title": "Das Ökosystem für digitale Talente",
@@ -30,17 +30,21 @@
     "support": { "name": "Technischer Support", "desc": "Schnelle Lösungen" },
     "tech": {
       "title": "Entwicklung & Technologie",
+      "web": "Webentwicklung",
+      "mobile": "Mobile Apps",
       "ai": "KI & Automatisierung",
       "backend": "Backend & APIs",
       "wordpress": "WordPress"
     },
     "design": {
       "title": "Design & Kreativität",
+      "uiux": "UI/UX Design",
       "branding": "Branding & Logos",
       "graphic": "Grafikdesign"
     },
     "marketing": {
       "title": "Marketing & Wachstum",
+      "digital": "Digitales Marketing",
       "email": "E-Mail-Marketing",
       "social": "Social Media Marketing",
       "analytics": "Analytik"
@@ -52,7 +56,9 @@
       "audio": "Audio & Podcast"
     },
     "ecommerce": {
-      "title": "E-Commerce & Support"
+      "title": "E-Commerce & Support",
+      "ecommerce": "E-Commerce",
+      "support": "Technischer Support"
     }
   },
   "ready": {
@@ -80,7 +86,9 @@
   "freelancer": {
     "rating": "Bewertung",
     "jobs": "abgeschlossene Aufträge",
-    "contact": "Kontaktieren"
+    "contact": "Kontaktieren",
+    "skills": "Fähigkeiten",
+    "reviews": "Bewertungen"
   },
   "footer": {
     "about": "Über uns",

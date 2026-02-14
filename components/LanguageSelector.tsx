@@ -19,7 +19,8 @@ const localeFlags: Record<string, string> = {
   ja: '🇯🇵',
   ar: '🇦🇪',
   ru: '🇷🇺',
-  ko: '🇰🇷'
+  ko: '🇰🇷',
+  tr: '🇹🇷'
 };
 
 export default function LanguageSelector() {

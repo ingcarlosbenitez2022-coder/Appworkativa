@@ -8,7 +8,7 @@
     "login": "Inloggen",
     "searchPlaceholder": "Zoek diensten...",
     "explore": "Ontdekken",
-    "startSelling": "Begin met verkopen"
+    "startSelling": "Beginnen met verkopen"
   },
   "hero": {
     "title": "Het ecosysteem voor digitaal talent",
@@ -30,17 +30,21 @@
     "support": { "name": "Technische Ondersteuning", "desc": "Snelle oplossingen" },
     "tech": {
       "title": "Ontwikkeling & Technologie",
+      "web": "Webontwikkeling",
+      "mobile": "Mobiele Apps",
       "ai": "AI & Automatisering",
       "backend": "Backend & APIs",
       "wordpress": "WordPress"
     },
     "design": {
       "title": "Ontwerp & Creativiteit",
+      "uiux": "UI/UX Design",
       "branding": "Branding & Logo's",
       "graphic": "Grafisch Ontwerp"
     },
     "marketing": {
       "title": "Marketing & Groei",
+      "digital": "Digitale Marketing",
       "email": "E-mailmarketing",
       "social": "Social Media Marketing",
       "analytics": "Analyse"
@@ -52,7 +56,9 @@
       "audio": "Audio & Podcast"
     },
     "ecommerce": {
-      "title": "E-commerce & Ondersteuning"
+      "title": "E-commerce & Ondersteuning",
+      "ecommerce": "E-commerce",
+      "support": "Technische Ondersteuning"
     }
   },
   "ready": {
@@ -80,7 +86,9 @@
   "freelancer": {
     "rating": "beoordeling",
     "jobs": "voltooide opdrachten",
-    "contact": "Contact"
+    "contact": "Contact",
+    "skills": "Vaardigheden",
+    "reviews": "beoordelingen"
   },
   "footer": {
     "about": "Over ons",

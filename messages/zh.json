@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "数字人才生态系统",
-    "subtitle": "连接、学习、与 Workativa 共同成长",
+    "subtitle": "通过Workativa连接、学习和成长",
     "cta": "发布项目",
     "search": {
       "placeholder": "您需要什么服务？",
@@ -21,43 +21,77 @@
   },
   "categories": {
     "title": "按类别探索服务",
-    "subtitle": "为每种项目类型找到理想人才",
-    "webDev": { "name": "网站开发", "desc": "现代化可扩展网站" },
-    "uiUx": { "name": "UI/UX 设计", "desc": "吸引人的界面" },
-    "marketing": { "name": "数字营销", "desc": "提升品牌影响力" },
+    "subtitle": "为每种项目类型找到理想的人才",
+    "webDev": { "name": "网站开发", "desc": "现代可扩展网站" },
+    "uiUx": { "name": "UI/UX设计", "desc": "吸引人的界面" },
+    "marketing": { "name": "数字营销", "desc": "发展您的品牌" },
     "ecommerce": { "name": "电子商务", "desc": "在线商店" },
-    "mobile": { "name": "移动应用", "desc": "iOS 与 Android" },
-    "support": { "name": "技术支持", "desc": "快速解决方案" }
+    "mobile": { "name": "移动应用", "desc": "iOS和Android" },
+    "support": { "name": "技术支持", "desc": "快速解决方案" },
+    "tech": {
+      "title": "开发与技术",
+      "web": "网站开发",
+      "mobile": "移动应用",
+      "ai": "人工智能与自动化",
+      "backend": "后端与API",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "设计与创意",
+      "uiux": "UI/UX设计",
+      "branding": "品牌与标志",
+      "graphic": "平面设计"
+    },
+    "marketing": {
+      "title": "营销与增长",
+      "digital": "数字营销",
+      "email": "电子邮件营销",
+      "social": "社交媒体营销",
+      "analytics": "数据分析"
+    },
+    "content": {
+      "title": "多媒体内容",
+      "video": "视频编辑",
+      "photo": "摄影",
+      "audio": "音频与播客"
+    },
+    "ecommerce": {
+      "title": "电子商务与支持",
+      "ecommerce": "电子商务",
+      "support": "技术支持"
+    }
   },
   "ready": {
-    "title": "今天准备好启动你的项目了吗？",
-    "subtitle": "发布你的项目，几分钟内即可收到经过验证的自由职业者的提案。"
+    "title": "准备好今天启动您的项目了吗？",
+    "subtitle": "发布您的项目，几分钟内即可收到经过验证的自由职业者的提案。"
   },
   "features": {
-    "noCost": "无需初始费用",
+    "noCost": "无前期费用",
     "verified": "经过验证的自由职业者",
     "quality": "质量保证",
     "secure": "安全支付"
   },
   "howItWorks": {
     "title": "运作方式",
-    "subtitle": "几分钟内即可开始",
-    "step1": { "title": "创建个人资料", "desc": "注册并展示你的才能" },
+    "subtitle": "几分钟内开始",
+    "step1": { "title": "创建个人资料", "desc": "注册并展示您的才能" },
     "step2": { "title": "探索服务", "desc": "寻找项目" },
-    "step3": { "title": "赚钱", "desc": "安全地工作并收款" }
+    "step3": { "title": "赚钱", "desc": "工作并安全收款" }
   },
   "gigs": {
-    "title": "可用自由职业服务",
+    "title": "可用的自由职业服务",
     "from": "起价",
     "contact": "联系"
   },
   "freelancer": {
     "rating": "评分",
-    "jobs": "已完成项目",
-    "contact": "联系"
+    "jobs": "完成的工作",
+    "contact": "联系",
+    "skills": "技能",
+    "reviews": "评论"
   },
   "footer": {
-    "about": "关于",
+    "about": "关于我们",
     "terms": "条款",
     "privacy": "隐私",
     "copyright": "© {year} Workativa。保留所有权利。"

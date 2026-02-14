@@ -30,17 +30,21 @@
     "support": { "name": "Suporte Técnico", "desc": "Soluções rápidas" },
     "tech": {
       "title": "Desenvolvimento & Tecnologia",
+      "web": "Desenvolvimento Web",
+      "mobile": "Apps Móveis",
       "ai": "IA & Automação",
       "backend": "Backend & APIs",
       "wordpress": "WordPress"
     },
     "design": {
       "title": "Design & Criatividade",
+      "uiux": "Design UI/UX",
       "branding": "Branding & Logos",
       "graphic": "Design Gráfico"
     },
     "marketing": {
       "title": "Marketing & Crescimento",
+      "digital": "Marketing Digital",
       "email": "Email Marketing",
       "social": "Marketing Redes Sociais",
       "analytics": "Análise"
@@ -52,7 +56,9 @@
       "audio": "Áudio & Podcast"
     },
     "ecommerce": {
-      "title": "E-commerce & Suporte"
+      "title": "E-commerce & Suporte",
+      "ecommerce": "E-commerce",
+      "support": "Suporte Técnico"
     }
   },
   "ready": {
@@ -80,7 +86,9 @@
   "freelancer": {
     "rating": "avaliação",
     "jobs": "trabalhos concluídos",
-    "contact": "Contatar"
+    "contact": "Contatar",
+    "skills": "Habilidades",
+    "reviews": "avaliações"
   },
   "footer": {
     "about": "Sobre",

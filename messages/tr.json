@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "logo": "Workativa",
+    "gigs": "Gigs",
+    "freelancers": "Freelancer'lar",
+    "categories": "Kategoriler",
+    "register": "Kayıt Ol",
+    "login": "Giriş Yap",
+    "searchPlaceholder": "Hizmet ara...",
+    "explore": "Keşfet",
+    "startSelling": "Satmaya Başla"
+  },
+  "hero": {
+    "title": "Dijital yetenek ekosistemi",
+    "subtitle": "Workativa ile bağlan, öğren ve büyü",
+    "cta": "Proje Yayınla",
+    "search": {
+      "placeholder": "Ne hizmetine ihtiyacın var?",
+      "button": "Ara"
+    }
+  },
+  "categories": {
+    "title": "Kategoriye göre hizmetleri keşfet",
+    "subtitle": "Her proje türü için ideal yeteneği bulun",
+    "webDev": { "name": "Web Geliştirme", "desc": "Modern ve ölçeklenebilir siteler" },
+    "uiUx": { "name": "UI/UX Tasarım", "desc": "Çekici arayüzler" },
+    "marketing": { "name": "Dijital Pazarlama", "desc": "Markanızı büyütün" },
+    "ecommerce": { "name": "E-ticaret", "desc": "Online mağazalar" },
+    "mobile": { "name": "Mobil Uygulamalar", "desc": "iOS & Android" },
+    "support": { "name": "Teknik Destek", "desc": "Hızlı çözümler" },
+    
+    "tech": {
+      "title": "Geliştirme & Teknoloji",
+      "ai": "Yapay Zeka & Otomasyon",
+      "backend": "Backend & API'ler",
+      "wordpress": "WordPress"
+    },
+    "design": {
+      "title": "Tasarım & Yaratıcılık",
+      "branding": "Branding & Logolar",
+      "graphic": "Grafik Tasarım"
+    },
+    "marketingCategory": {
+      "title": "Pazarlama & Büyüme",
+      "email": "E-posta Pazarlama",
+      "social": "Sosyal Medya Pazarlama",
+      "analytics": "Analitik"
+    },
+    "content": {
+      "title": "Multimedya İçeriği",
+      "video": "Video Düzenleme",
+      "photo": "Fotoğrafçılık",
+      "audio": "Ses & Podcast"
+    },
+    "ecommerceCategory": {
+      "title": "E-ticaret & Destek"
+    }
+  },
+  "ready": {
+    "title": "Projenizi bugün başlatmaya hazır mısınız?",
+    "subtitle": "Projenizi yayınlayın ve dakikalar içinde doğrulanmış freelancer'lardan teklifler alın."
+  },
+  "features": {
+    "noCost": "Başlangıç maliyeti yok",
+    "verified": "Doğrulanmış freelancer'lar",
+    "quality": "Kalite garantili",
+    "secure": "Güvenli ödeme"
+  },
+  "howItWorks": {
+    "title": "Nasıl çalışır",
+    "subtitle": "Dakikalar içinde başlayın",
+    "step1": { "title": "Profilinizi oluşturun", "desc": "Kayıt olun ve yeteneğinizi gösterin" },
+    "step2": { "title": "Gig'leri keşfedin", "desc": "Projeler bulun" },
+    "step3": { "title": "Para kazanın", "desc": "Çalışın ve güvenli şekilde ödeme alın" }
+  },
+  "gigs": {
+    "title": "Mevcut freelance hizmetler",
+    "from": "başlangıç",
+    "contact": "İletişim"
+  },
+  "freelancer": {
+    "rating": "değerlendirme",
+    "jobs": "tamamlanan iş",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "about": "Hakkında",
+    "terms": "Şartlar",
+    "privacy": "Gizlilik",
+    "copyright": "© {year} Workativa. Tüm hakları saklıdır."
+  }
+}

@@ -4,11 +4,11 @@
     "gigs": "Заказы",
     "freelancers": "Фрилансеры",
     "categories": "Категории",
-    "explore": "Исследовать",
-    "startSelling": "Начать продавать",
     "register": "Регистрация",
     "login": "Войти",
-    "searchPlaceholder": "Поиск услуг..."
+    "searchPlaceholder": "Поиск услуг...",
+    "explore": "Исследовать",
+    "startSelling": "Начать продавать"
   },
   "hero": {
     "title": "Экосистема цифровых талантов",
@@ -86,7 +86,9 @@
   "freelancer": {
     "rating": "рейтинг",
     "jobs": "выполненных работ",
-    "contact": "Связаться"
+    "contact": "Связаться",
+    "skills": "Навыки",
+    "reviews": "отзывы"
   },
   "footer": {
     "about": "О нас",

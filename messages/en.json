@@ -86,7 +86,9 @@
   "freelancer": {
     "rating": "rating",
     "jobs": "jobs completed",
-    "contact": "Contact"
+    "contact": "Contact",
+    "skills": "Skills",
+    "reviews": "reviews"
   },
   "footer": {
     "about": "About",

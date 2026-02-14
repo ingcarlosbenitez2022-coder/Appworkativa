@@ -86,7 +86,9 @@
   "freelancer": {
     "rating": "valutazione",
     "jobs": "lavori completati",
-    "contact": "Contatta"
+    "contact": "Contatta",
+    "skills": "Competenze",
+    "reviews": "recensioni"
   },
   "footer": {
     "about": "Chi siamo",

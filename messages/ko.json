@@ -28,11 +28,14 @@
     "ecommerce": { "name": "이커머스", "desc": "온라인 스토어" },
     "mobile": { "name": "모바일 앱", "desc": "iOS & Android" },
     "support": { "name": "기술 지원", "desc": "빠른 해결" },
+    "video": { "name": "비디오 편집", "desc": "전문적인 비디오 편집" },
+    "photo": { "name": "사진", "desc": "전문 사진 촬영" },
+    "audio": { "name": "오디오 및 팟캐스트", "desc": "오디오 제작 및 팟캐스트" },
+    "ai": { "name": "AI 및 자동화", "desc": "인공지능 및 자동화 솔루션" },
     "tech": {
       "title": "개발 및 기술",
       "web": "웹 개발",
       "mobile": "모바일 앱",
-      "ai": "AI 및 자동화",
       "backend": "백엔드 및 API",
       "wordpress": "워드프레스"
     },
@@ -42,7 +45,7 @@
       "branding": "브랜딩 및 로고",
       "graphic": "그래픽 디자인"
     },
-    "marketing": {
+    "marketingSection": {
       "title": "마케팅 및 성장",
       "digital": "디지털 마케팅",
       "email": "이메일 마케팅",
@@ -55,11 +58,14 @@
       "photo": "사진",
       "audio": "오디오 및 팟캐스트"
     },
-    "ecommerce": {
+    "ecommerceSection": {
       "title": "이커머스 및 지원",
       "ecommerce": "이커머스",
       "support": "기술 지원"
     }
+  },
+  "servicesSquareSlider": {
+    "title": "서비스 카테고리"
   },
   "ready": {
     "title": "오늘 프로젝트를 시작할 준비가 되셨나요?",

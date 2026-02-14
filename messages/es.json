@@ -28,6 +28,10 @@
     "ecommerce": { "name": "E-commerce", "desc": "Tiendas online" },
     "mobile": { "name": "Apps Móviles", "desc": "iOS & Android" },
     "support": { "name": "Soporte Técnico", "desc": "Soluciones rápidas" },
+    "video": { "name": "Edición de Video", "desc": "Producción video profesional" },
+    "photo": { "name": "Fotografía", "desc": "Servicios fotográficos profesionales" },
+    "audio": { "name": "Audio y Podcast", "desc": "Producción de audio y podcast" },
+    "ai": { "name": "IA y Automatización", "desc": "Soluciones de inteligencia artificial" },
     
     "tech": {
       "title": "Desarrollo & Tecnología",

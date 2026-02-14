@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import NoHydration from "@/components/NoHydration";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,8 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning>
-      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}>
-        {children}
+      <body 
+        suppressHydrationWarning
+        className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}
+      >
+        <NoHydration>
+          {children}
+        </NoHydration>
       </body>
     </html>
   );

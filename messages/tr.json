@@ -28,6 +28,10 @@
     "ecommerce": { "name": "E-ticaret", "desc": "Online mağazalar" },
     "mobile": { "name": "Mobil Uygulamalar", "desc": "iOS & Android" },
     "support": { "name": "Teknik Destek", "desc": "Hızlı çözümler" },
+    "video": { "name": "Video Düzenleme", "desc": "Profesyonel video prodüksiyonu" },
+    "photo": { "name": "Fotoğrafçılık", "desc": "Profesyonel fotoğrafçılık hizmetleri" },
+    "audio": { "name": "Ses & Podcast", "desc": "Ses prodüksiyonu ve podcasting" },
+    "ai": { "name": "Yapay Zeka & Otomasyon", "desc": "Yapay zeka çözümleri" },
     
     "tech": {
       "title": "Geliştirme & Teknoloji",

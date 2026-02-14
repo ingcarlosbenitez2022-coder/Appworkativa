@@ -61,6 +61,9 @@
       "support": "Teknisk Support"
     }
   },
+  "servicesSquareSlider": {
+    "title": "Tjänstekategorier"
+  },
   "ready": {
     "title": "Redo att lansera ditt projekt idag?",
     "subtitle": "Publicera ditt projekt och få förslag från verifierade frilansare inom några minuter."

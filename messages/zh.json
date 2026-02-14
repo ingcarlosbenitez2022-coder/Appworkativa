@@ -61,6 +61,9 @@
       "support": "技术支持"
     }
   },
+  "servicesSquareSlider": {
+    "title": "服务类别"
+  },
   "ready": {
     "title": "准备好今天启动您的项目了吗？",
     "subtitle": "发布您的项目，几分钟内即可收到经过验证的自由职业者的提案。"

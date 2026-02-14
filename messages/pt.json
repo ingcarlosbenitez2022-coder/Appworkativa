@@ -61,6 +61,9 @@
       "support": "Suporte Técnico"
     }
   },
+  "servicesSquareSlider": {
+    "title": "Serviços em destaque"
+  },
   "ready": {
     "title": "Pronto para lançar seu projeto hoje?",
     "subtitle": "Publique seu projeto e receba propostas de freelancers verificados em minutos."

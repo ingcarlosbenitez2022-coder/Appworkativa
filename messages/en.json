@@ -61,6 +61,9 @@
       "support": "Technical Support"
     }
   },
+  "servicesSquareSlider": {
+    "title": "Featured services"
+  },
   "ready": {
     "title": "Ready to launch your project today?",
     "subtitle": "Post your project and receive proposals from verified freelancers in minutes."

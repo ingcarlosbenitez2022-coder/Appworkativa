@@ -1,37 +1,36 @@
-import { getMessages, setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/lib/routing';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import LocaleHtmlAttributes from '@/components/LocaleHtmlAttributes';
-import IntlErrorHandlingProvider from '@/components/IntlErrorHandlingProvider';
-import { rtlLocales } from '@/lib/i18n-config';
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+import {notFound} from 'next/navigation';
+import {routing} from '@/lib/routing';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({locale}));
 }
 
 export default async function LocaleLayout({
   children,
-  params,
+  params
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{locale: string}>;
 }) {
-  const { locale } = await params;
+  const {locale} = await params;
+  
+  // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as any)) notFound();
-  setRequestLocale(locale);
+
+  // Providing all messages to the client
   const messages = await getMessages();
-  const isRtl = rtlLocales.includes(locale as any);
 
   return (
-    <div className={isRtl ? 'rtl' : 'ltr'} dir={isRtl ? 'rtl' : 'ltr'}>
-      <LocaleHtmlAttributes locale={locale} />
-      <IntlErrorHandlingProvider messages={messages} locale={locale}>
-        <Navbar locale={locale} />
-        <main className="flex-1">{children}</main>
-        <Footer locale={locale} />
-      </IntlErrorHandlingProvider>
-    </div>
+    <html lang={locale} suppressHydrationWarning>
+      <body>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          {children}
+        </NextIntlClientProvider>
+        <SpeedInsights />
+      </body>
+    </html>
   );
 }

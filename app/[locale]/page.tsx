@@ -4,6 +4,8 @@ import ServicesSquareSlider from '@/components/ServicesSquareSlider';
 import Categories from '@/components/Categories';
 import ReadySection from '@/components/ReadySection';
 import HowItWorks from '@/components/HowItWorks';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -11,11 +13,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      <HeroVideo />
-      <ServicesSquareSlider />
-      <Categories />
-      <ReadySection />
-      <HowItWorks />
+      <Navbar locale={locale} />
+      <main>
+        <HeroVideo />
+        <ServicesSquareSlider />
+        <Categories />
+        <ReadySection />
+        <HowItWorks />
+      </main>
+      <Footer locale={locale} />
     </>
   );
 }
